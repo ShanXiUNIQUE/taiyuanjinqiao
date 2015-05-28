@@ -141,3 +141,114 @@
 	margin-right:-100px;
 	}
 /*banner end*/
+.hnz_contentbox{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	background:#f5f1f0;
+	}
+/* 校务公告 start */
+#hnz_sinfo{
+	width:1100px;
+	height:500px;
+	margin:40px auto;
+	}
+.hnz_sinfo_l{
+	width:745px;
+	height:100%;
+	background:#fff;
+	box-shadow:0px 0px 10px #ddd;
+	float:left;
+	}
+.hnz_s_title{
+	width:100%;
+	height:100px;
+	overflow:hidden;
+	color:#5c5c5c;
+	}
+.hnz_s_title h3{
+	font-size:22px;
+	margin:30px 0 0 30px;
+	line-height:32px;
+	}
+.hnz_s_title b{
+	font-size:18px;
+	line-height:24px;
+	margin-left:30px;
+	}
+.hnz_s_img{
+	width:100%;
+	height:200px;
+	overflow:hidden;
+	}
+.hnz_s_img img{
+	width:100%;
+	}
+.hnz_s_info{
+	width:685px;
+	height:140px;
+	border:30px solid #fff;
+	overflow:hidden;
+	font-size:14px;
+	line-height:24px;
+	color:#5c5c5c;
+	}
+
+
+.hnz_sinfo_r{
+	width:320px;
+	height:100%;
+	background:#fff;
+	box-shadow:0px 0px 10px #ddd;
+	float:right;
+	}
+.hnz_s_r_title{
+	width:260px;
+	height:65px;
+	padding:15px 30px 0px;
+	background:#429697;
+	color:#fff;
+	}
+.hnz_s_r_title h3{
+	font-size:22px;
+	line-height:32px;
+	}
+.hnz_s_r_title p{
+	font-size:20px;
+	line-height:28px;
+	}
+.hnz_s_r_list{
+	width:260px;
+	height:320px;
+	padding:20px 30px;
+	}
+.hnz_s_r_list li{
+	height:38px;
+	line-height:38px;
+	border-bottom:1px solid #f8f8f8;
+	overflow:hidden;
+	}
+.hnz_s_r_list li a{
+	font-size:16px;
+	transition:all 0.5s;
+	color:#5c5c5c;
+	}
+.hnz_s_r_list li a:hover{
+	color:#fb601f;
+	}
+.hnz_s_r_more{
+	width:100%;
+	height:60px;
+	}
+.hnz_s_r_more a{
+	font-size:50px;
+	line-height:25px;
+	transition: all 0.5s;
+	color:#999;
+	float:right;
+	margin-right:30px;
+	}
+.hnz_s_r_more a:hover{
+	color:#fb601f;
+	}
+/* 校务公告 end */
