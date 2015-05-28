@@ -93,7 +93,7 @@
 	height:80px;
 	background:#000;
 	opacity:0.3;
-	*filter:alpha(opacity=30);
+	_filter:alpha(opacity=30);
 	position:absolute;
 	z-index:1;
 	left:0;
@@ -132,8 +132,12 @@
 	text-align:center;
 	line-height:100px;
 	color:#fff;
+    transition: all 0.5s;
 	font-family:"YouYuan";
 	}
+.hnz_bbtn a:hover{
+    color:#FB601F;
+}
 .hnz_btn_l{
 	margin-left:-100px;
 	}
@@ -153,6 +157,7 @@
 	height:500px;
 	margin:40px auto;
 	}
+
 .hnz_sinfo_l{
 	width:745px;
 	height:100%;
@@ -252,3 +257,120 @@
 	color:#fb601f;
 	}
 /* 校务公告 end */
+/* 快速导航 start*/
+#hnz_qnav{
+	width:1100px;
+	height:360px;
+    margin:0 auto 30px;
+}
+
+.hnz_qnav_l{
+     width:320px;
+     height:100%;
+     background:#fff;
+     box-shadow:0px 0px 10px #ddd;
+     float:left;
+ }
+.hnz_qnav_l_title{
+    width:260px;
+    height:65px;
+    padding:15px 30px 0px;
+    background:#429697;
+    color:#fff;
+}
+.hnz_qnav_l_title h3{
+    font-size:22px;
+    line-height:32px;
+}
+.hnz_qnav_l_title p{
+    font-size:20px;
+    line-height:28px;
+}
+.hnz_qnav_l_box{
+    width: 100%;
+    height:250px;
+    overflow: hidden;
+}
+.hnz_qnav_l_list{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+}
+.hnz_qnav_l_list li{
+    width:100%;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    color:#5c5c5c;
+}
+.hnz_qnav_l_list li a{
+    display: block;
+    width:100%;
+    height:100%;
+    font-size:18px;
+    transition: all 0.5s;
+}
+.hnz_qnav_l_list li a:hover{
+    color:#fb601f;
+}
+.hnz_qnav_l_btn{
+    width:100%;
+    height:30px;
+    background:#f5f5f5;
+}
+.hnz_qnav_l_btn a{
+    width:0;
+    height:0;
+    border:12px solid #429697;
+    border-left:10px solid #f5f5f5;
+    border-right:10px solid #f5f5f5 ;
+    float:left;
+    transition: all 0.5s;
+}
+.hnz_qnav_l_btn .hnz_btn_up{
+    border-top: 0;
+    margin:7px 10px 0 135px;
+}
+.hnz_qnav_l_btn .hnz_btn_down{
+    border-bottom: 0;
+    margin-top:7px;
+}
+.hnz_qnav_l_btn a:hover{
+    border-color:#fb601f;
+    border-left:10px solid #f5f5f5;
+    border-right:10px solid #f5f5f5 ;
+}
+
+
+.hnz_qnav_r{
+    width:750px;
+    height:100%;
+    background:#fff;
+    box-shadow:0px 0px 10px #ddd;
+    float:right;
+}
+.hnz_qnav_r li{
+    width:690px;
+    height:300px;
+    padding:30px;
+}
+.hnz_qnav_r_img{
+    width:280px;
+    height:290px;
+    overflow: hidden;
+    border:5px solid #cccccc;
+    float:left;
+}
+.hnz_qnav_r_img img{
+    width:100%;
+}
+.hnz_qnav_r_cont{
+    float:right;
+    width:380px;
+    height:300px;
+    font-size: 16px;
+    line-height: 24px;
+    color:#5c5c5c;
+    overflow: hidden;
+}
+/* 快速导航 end */
