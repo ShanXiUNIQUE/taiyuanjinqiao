@@ -1,0 +1,87 @@
+/*footer start*/
+#hnz_footer_box{
+	width:100%;
+	height:300px;
+}
+.hnz_footer_up{
+	width:100%;
+	height:267px;
+	overflow: hidden;
+	background: url("../images/hnz_footer_bg.jpg") repeat 0 0;
+	/*background:#000;*/
+	/*opacity: 0.7;*/
+	/*_filter:Alpha(Opacity=70);*/
+}
+.hnz_footer_upin{
+	width:1100px;
+	height:150px;
+	margin:0 auto;
+	margin-top:50px;
+}
+.hnz_footer_bottom{
+	width:100%;
+	height:33px;
+	background:#212121;
+	color:#fff;
+	text-align: center;
+	line-height: 33px;
+	font-size: 14px;
+}
+.hnz_footer_upin_img{
+	width:33.333%;
+	height:100%;
+	float:left;
+	background: url(../images/hnz_logo_a.png) no-repeat 45px 0;
+}
+.hnz_footer_upin_number{
+	width:33.333%;
+	height:100%;
+	float:left;
+}
+.hnz_footer_upin_number h6,.hnz_footer_upin_address h6{
+	width:100%;
+	height:35px;
+	font-size:18px;
+	color:#fff;
+}
+.hnz_number,.hnz_address{
+	width:100%;
+	height:120px;
+}
+.hnz_number_l{
+	width:35px;
+	height:120px;
+	float:left;
+	background:url(../images/hnz_icon_phone.png) no-repeat 5px 5px;
+}
+.hnz_address_l{
+	width:35px;
+	height:120px;
+	float:left;
+	background:url(../images/hnz_icon_address.png) no-repeat 5px 0px;
+}
+.hnz_number_r,.hnz_address_r{
+	float:left;
+	width:auto;
+}
+.hnz_number_r li{
+	color:#fff;
+	font-weight: bold;
+	line-height:28px;
+}
+.hnz_address_r li{
+	color:#fff;
+	line-height:28px;
+}
+.hnz_footer_upin_address{
+	width:33.333%;
+	height:100%;
+	float:left;
+}
+.hnz_footer_upin_number h6{
+	width:100%;
+	height:35px;
+	font-size:18px;
+	color:#fff;
+}
+/*footer end*/
