@@ -85,15 +85,19 @@
 	position:absolute;
 	width:100%;
 	height:100%;
+	overflow: hidden;
 	top:0;
 	left:0;
 	}
+.hnz_banner_list a img{
+	width:100%;
+}
 .hnz_banner_list .hnz_bg{
 	width:1100px;
 	height:80px;
 	background:#000;
-	opacity:0.3;
-	_filter:alpha(opacity=30);
+	opacity:0.6;
+	_filter:alpha(opacity=60);
 	position:absolute;
 	z-index:1;
 	left:0;
@@ -246,7 +250,7 @@
 	height:60px;
 	}
 .hnz_s_r_more a{
-	font-size:50px;
+	font-size:38px;
 	line-height:25px;
 	transition: all 0.5s;
 	color:#999;
@@ -342,17 +346,20 @@
 }
 
 
+
 .hnz_qnav_r{
     width:750px;
     height:100%;
     background:#fff;
     box-shadow:0px 0px 10px #ddd;
     float:right;
+	overflow: hidden;
 }
 .hnz_qnav_r li{
     width:690px;
     height:300px;
     padding:30px;
+	background: #ffffff;
 }
 .hnz_qnav_r_img{
     width:280px;
@@ -374,3 +381,213 @@
     overflow: hidden;
 }
 /* 快速导航 end */
+#hnz_imgoutbox{
+	min-width:1100px;
+	_width:expression(document.documentElement.clientWidth>1100?document.documentElement.clientWidth:1100);
+	height:270px;
+	margin-bottom:30px;
+	background:#e1f9f9;
+	overflow: hidden;
+}
+.hnz_imginner{
+	width:1100px;
+	height:200px;
+	margin:35px auto 0;
+	overflow: hidden;
+}
+.hnz_img_list{
+	width:auto;
+	height:100%;
+}
+.hnz_img_list li{
+	width:260px;
+	height:100%;
+	overflow: hidden;
+	float:left;
+	margin-right:20px;
+}
+.hnz_img_list li img{
+	width:100%;
+	height:auto;
+}
+
+/*活动 start*/
+#hnz_active_box{
+	width:1100px;
+	height:595px;
+	margin:0 auto;
+	margin-bottom:30px;
+	overflow: hidden;
+}
+.hnz_active{
+	width:540px;
+	height:595px;
+	background:#fff;
+	box-shadow:0px 0px 10px #ddd;
+}
+
+.hnz_active_title{
+	width:100%;
+	height:100px;
+	overflow:hidden;
+	color:#5c5c5c;
+}
+.hnz_active_title h3{
+	font-size:22px;
+	margin:30px 0 0 30px;
+	line-height:32px;
+}
+.hnz_active_title b{
+	font-size:18px;
+	line-height:24px;
+	margin-left:30px;
+}
+.hnz_active_img{
+	width:100%;
+	height:195px;
+	overflow:hidden;
+}
+.hnz_active_img img{
+	width:100%;
+}
+.hnz_active_info{
+	width:500px;
+	height:120px;
+	border:20px solid #fff;
+	overflow:hidden;
+	font-size:14px;
+	line-height:20px;
+	color:#5c5c5c;
+	box-shadow: 0px 1px 3px #ccc;
+}
+.hnz_active_list{
+	width:100%;
+	height:105px;
+	overflow: hidden;
+}
+.hnz_active_list li{
+	padding:0 20px 0 10px;
+	line-height:34px;
+	color:#5c5c5c;
+	border-bottom: 1px dotted #eee;
+}
+.hnz_active_list li span{
+	float:left;
+	width:15px;
+	height:34px;
+	font-size:33px;
+	color:#5c5c5c;
+}
+.hnz_active_list li a{
+	font-size: 14px;
+	color:#5c5c5c;
+}
+.hnz_active_list li:hover a,.hnz_active_list li:hover span{
+	color:#FB601F;
+}
+.hnz_active_more{
+	width:100%;
+	height:35px;
+	overflow: hidden;
+}
+.hnz_active_more a{
+	font-size:38px;
+	line-height:10px;
+	transition: all 0.5s;
+	color:#999;
+	float:right;
+	margin-right:30px;
+}
+.hnz_active_more a:hover{
+	color:#fb601f;
+}
+/*活动 end*/
+
+
+/*footer start*/
+#hnz_footer_box{
+	width:100%;
+	height:300px;
+}
+.hnz_footer_up{
+	width:100%;
+	height:267px;
+	overflow: hidden;
+	background: url("../images/hnz_footer_bg.jpg") repeat 0 0;
+	/*background:#000;*/
+	/*opacity: 0.7;*/
+	/*_filter:Alpha(Opacity=70);*/
+}
+.hnz_footer_upin{
+	width:1100px;
+	height:150px;
+	margin:0 auto;
+	margin-top:50px;
+}
+.hnz_footer_bottom{
+	width:100%;
+	height:33px;
+	background:#212121;
+	color:#fff;
+	text-align: center;
+	line-height: 33px;
+	font-size: 14px;
+}
+.hnz_footer_upin_img{
+	width:33.333%;
+	height:100%;
+	float:left;
+	background: url(../images/hnz_logo_a.png) no-repeat 45px 0;
+}
+.hnz_footer_upin_number{
+	width:33.333%;
+	height:100%;
+	float:left;
+}
+.hnz_footer_upin_number h6,.hnz_footer_upin_address h6{
+	width:100%;
+	height:35px;
+	font-size:18px;
+	color:#fff;
+}
+.hnz_number,.hnz_address{
+	width:100%;
+	height:120px;
+}
+.hnz_number_l{
+	width:35px;
+	height:120px;
+	float:left;
+	background:url(../images/hnz_icon_phone.png) no-repeat 5px 5px;
+}
+.hnz_address_l{
+	width:35px;
+	height:120px;
+	float:left;
+	background:url(../images/hnz_icon_address.png) no-repeat 5px 0px;
+}
+.hnz_number_r,.hnz_address_r{
+	float:left;
+	width:auto;
+}
+.hnz_number_r li{
+	color:#fff;
+	font-weight: bold;
+	line-height:28px;
+}
+.hnz_address_r li{
+	color:#fff;
+	line-height:28px;
+}
+.hnz_footer_upin_address{
+	width:33.333%;
+	height:100%;
+	float:left;
+}
+.hnz_footer_upin_number h6{
+	width:100%;
+	height:35px;
+	font-size:18px;
+	color:#fff;
+}
+/*footer end*/
