@@ -1,0 +1,93 @@
+@import url(base.css);
+  
+    .wq_fldh{
+  float:left;
+  width:257px;height:auto;	
+  background:#fff;overflow:hidden;
+	}
+	.wq_fldh_top{
+ width:100%;height:72px;background:url(../images/wq_fldh.jpg) no-repeat;	
+ margin-bottom:8px;
+	}
+	.wq_fldh_content{
+ background:#fff;	
+	}
+	.wq_fldh_title{
+ width:234px;height:45px;	margin-left:2px;border-top:1px solid #e6e6e6;
+ border-bottom:1px solid #e6e6e6;line-height:45px;padding-left:20px;
+ color:#575757;cursor:pointer;font-size:16px;background:#fff;
+  transition:all 1s ease; 
+	}
+	dt.wq_fldh_title-sel{
+	  background:#009494; 
+	}
+	.wq_fldh_title span{
+		 overflow:hidden;
+		 height:45px;
+	  }
+	.wq_fldh_title:hover{
+	 background:#009494;
+		}
+	.wq_fldh_title .wq_fldh_sanjiao{
+ width:8px;height:8px;background:url(../images/wq_daosanjiao.png) no-repeat center top;
+float:right;
+ margin-right:16px;margin-top:18px;
+ overflow:hidden;
+	}
+	.wq_list{
+		 width:257px;height:auto;background:#fff;
+	}
+	.wq_fldh_list{
+ width:211px;height:40px;border-bottom:1px dashed #e6e6e6;
+ margin-left:21px;line-height:40px;background:#fff;
+ font-size:14px;color:#9d9f9f;padding-left:3px;
+ cursor:pointer;transition:all 1s ease;display:block;
+	}
+	dd.wq_fldh_list_sel{
+	  color:#02bebe
+	}
+	.wq_fldh_list:hover{
+		 color:#02bebe;
+		}
+	.wq_fldh_bottom{
+ width:100%;height:20px;background:url(../images/wq_fldh_bottom.jpg) no-repeat;	
+	}
+	.wq_fldh_title .wq_flah_daosanjiao{
+	background:url(../images/wq_sanjiao.png) no-repeat center top;
+		}
+	.wq_fldh_click{
+	border-bottom:0;	
+		}	
+/*翻页效果*/	
+	.wq_fanye{
+  width:400px;
+  height:20px;padding-top:15px;padding-bottom:15px;
+  color:#575757;line-height:20px;
+		}
+	.wq_fanye a:hover{color:#009494; font-weight:bold;}
+	.wq_fanye span{padding:2px;}
+   .wq_tiaozhuan{ width:20px;height:18px;text-align:center; 
+   float:left;border:1px solid #575757; 
+	   }	
+
+/*党史上的今天*/	   
+	 .hnz_dsjt{
+	width:1080px;height:45px;margin:0 auto;
+	overflow:hidden;background:#fff url(../images/hnz_dssdjt.jpg) no-repeat 0 0;
+	border:1px solid #ddd;
+	margin-top:25px;
+		 } 
+		.hnz_dates{width:70px;height:100%; line-height:48px;font-size:14px;color:#fff;margin-left:185px;}
+		.hnz_dsjt-list{width:700px;heig ht:45px; overflow:hidden;margin-left:43px;}
+		.hnz_dsjt-list li{float:left;height:45px; line-height:45px;white-space:nowrap;}
+		.hnz_dsjt-btns{
+			width:80px;height:45px; font-family:"黑体";font-size:15px; line-height:45px;
+			}
+		.hnz_dsjt-btns span{width:40px;height:45px; text-align:center;color:#ccc; cursor:pointer;}
+		.hnz_dsjt-btns span:hover{color:#999;}
+
+	   
+	   
+	   
+	   
+	   	
