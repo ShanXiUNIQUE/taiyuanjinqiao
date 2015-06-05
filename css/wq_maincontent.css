@@ -34,8 +34,11 @@ body{
 .wq_right_top_breadnav{
 	height:30px;
 	width:250px;
-	background-color:red;
 	float:left;
+	color: #eee;
+	font-size:14px;
+	margin-left: 10px;
+
 }
 .wq_right_title{
 	width:400px;

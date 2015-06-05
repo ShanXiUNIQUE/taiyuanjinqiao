@@ -57,6 +57,10 @@
 	width:100%;
 	font-size:18px;
 	}
+.hnz_nav .hnz_nav_list .hot{
+		background:#1c9494;
+		color:#fff;
+	}
 .hnz_nav .hnz_nav_list a b{
 	display:inline-block;
 	width:100%;
